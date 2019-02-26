@@ -3,7 +3,7 @@ import os
 
 def main():
     if len(sys.argv) != 2:
-        print("You gave " + str(len(sys.argv)) + " arguments instead of only one")
+        print("You gave " + str(len(sys.argv)-1) + " arguments instead of only one")
     else:
         print("ok.")
     if not os.path.exists(sys.argv[1]):
