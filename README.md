@@ -1,2 +1,2 @@
 # pic_delete
-A bash script to delete RAW picture files which have no corresponding jpg file
+A python script to delete RAW picture files which have no corresponding jpg file
